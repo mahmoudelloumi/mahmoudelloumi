@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Mahmoud Elloumi, computer engineering student at ENIS: Generative AI, Full-Stack and DevOps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#14254a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#94a3b8" fill-opacity=".18"/>
+    </pattern>
+    <style>
+      .name { font: 800 54px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f8fafc; letter-spacing: -1px; }
+      .role { font: 600 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #cbd5e1; }
+      .pill { font: 600 15px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #e2e8f0; }
+      .node { fill: #60a5fa; }
+      .edge { stroke: #60a5fa; stroke-opacity: .35; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#dots)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#glow)"/>
+
+  <!-- petit réseau de neurones stylisé, à droite -->
+  <g transform="translate(870 55)">
+    <g class="edge">
+      <line x1="0" y1="20" x2="110" y2="0"/><line x1="0" y1="20" x2="110" y2="75"/><line x1="0" y1="20" x2="110" y2="150"/>
+      <line x1="0" y1="95" x2="110" y2="0"/><line x1="0" y1="95" x2="110" y2="75"/><line x1="0" y1="95" x2="110" y2="150"/>
+      <line x1="0" y1="130" x2="110" y2="0"/><line x1="0" y1="130" x2="110" y2="75"/><line x1="0" y1="130" x2="110" y2="150"/>
+      <line x1="110" y1="0" x2="220" y2="55"/><line x1="110" y1="75" x2="220" y2="55"/><line x1="110" y1="150" x2="220" y2="55"/>
+      <line x1="110" y1="0" x2="220" y2="110"/><line x1="110" y1="75" x2="220" y2="110"/><line x1="110" y1="150" x2="220" y2="110"/>
+    </g>
+    <g class="node">
+      <circle cx="0" cy="20" r="7"/><circle cx="0" cy="95" r="7"/><circle cx="0" cy="130" r="7"/>
+      <circle cx="110" cy="0" r="9"/><circle cx="110" cy="75" r="9"/><circle cx="110" cy="150" r="9"/>
+      <circle cx="220" cy="55" r="8" fill="#a78bfa"/><circle cx="220" cy="110" r="8" fill="#a78bfa"/>
+    </g>
+  </g>
+
+  <text x="60" y="108" class="name">Mahmoud Elloumi</text>
+  <rect x="60" y="124" width="120" height="4" rx="2" fill="url(#accent)"/>
+  <text x="60" y="164" class="role">Computer Engineering Student · ENIS, Tunisia</text>
+
+  <g transform="translate(60 190)">
+    <rect width="166" height="34" rx="17" fill="#1e3a8a" fill-opacity=".55" stroke="#3b82f6" stroke-opacity=".6"/>
+    <text x="83" y="22" text-anchor="middle" class="pill">Generative AI</text>
+    <rect x="178" width="122" height="34" rx="17" fill="#1e3a8a" fill-opacity=".55" stroke="#3b82f6" stroke-opacity=".6"/>
+    <text x="239" y="22" text-anchor="middle" class="pill">Full-Stack</text>
+    <rect x="312" width="108" height="34" rx="17" fill="#1e3a8a" fill-opacity=".55" stroke="#3b82f6" stroke-opacity=".6"/>
+    <text x="366" y="22" text-anchor="middle" class="pill">DevOps</text>
+  </g>
+</svg>
