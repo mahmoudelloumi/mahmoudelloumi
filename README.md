@@ -1,7 +1,7 @@
 <!-- Profile README: copy this file AND the assets/ folder into the repo github.com/mahmoudelloumi/mahmoudelloumi -->
 
 <p align="center">
-  <img src="assets/header.svg" alt="Mahmoud Elloumi, computer engineering student at ENIS: Generative AI, Full-Stack and DevOps" width="100%">
+  <img src="assets/header.svg" alt="Mahmoud Elloumi, computer engineering student at ENIS: Generative AI, Data &amp; BI, Full-Stack and DevOps" width="100%">
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ## 👋 Hi, I'm Mahmoud
 
-I'm a computer engineering student at **ENIS** (Sfax, Tunisia). I like taking a real business problem, an after-sales team buried in requests or a company retyping invoices by hand, and turning it into an application that people actually use, with **generative AI** where it really helps.
+I'm a computer engineering student at **ENIS** (Sfax, Tunisia). I like taking a real business problem, an after-sales team buried in requests or a company retyping invoices by hand, and turning it into an application that people actually use, with **generative AI** where it really helps and **data & BI** to measure the result.
 
 I care about the whole chain: the data, the backend, the interface, the tests and the deployment.
 
@@ -23,6 +23,7 @@ I care about the whole chain: the data, the backend, the interface, the tests an
 - **Workflow automation**: n8n pipelines that classify, notify and export without manual work
 - **Full-stack apps**: Spring Boot and FastAPI backends, React and Angular front ends, secured with JWT and 2FA
 - **Event-driven systems**: real-time pipelines with Apache Kafka and MQTT
+- **Data analysis & BI**: cleaning and analyzing data with Python and pandas, then Power BI dashboards (Power Query, DAX) that business teams can read
 - **Machine learning**: anomaly detection, churn prediction, self-supervised vision models in PyTorch
 - **DevOps & software quality**: Docker, Git, TDD, SonarQube, Scrum
 
@@ -36,7 +37,7 @@ I care about the whole chain: the data, the backend, the interface, the tests an
 ## 📌 Right now
 
 - 🔭 Building **EVA-Guard**, agentic detection of attacks on an Ethereum node, and **Smart Surveillance**, Fog & Cloud video surveillance with 250+ automated tests
-- 🎯 Looking for a **final-year engineering internship (PFE)** in generative AI, full-stack or DevOps
+- 🎯 Looking for a **final-year engineering internship (PFE)** in generative AI, data & BI, full-stack or DevOps
 
 ## 🚀 Things I've built
 
@@ -73,7 +74,7 @@ I care about the whole chain: the data, the backend, the interface, the tests an
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://mahmoud-elloumi.vercel.app/#projet-anomalies">Sales anomaly detection</a></h3>
-      Flags and explains unusual sales in <b>121,000+ transactions</b>: quality rules, robust z-score and Isolation Forest. <b>90 / 90</b> injected errors found.<br><br>
+      Flags and explains unusual sales in <b>121,000+ transactions</b>: quality rules, robust z-score and Isolation Forest. <b>90 / 90</b> injected errors found, plus a 6-page Power BI report.<br><br>
       <code>Python</code> <code>scikit-learn</code> <code>Power BI</code>
     </td>
   </tr>
@@ -100,7 +101,7 @@ I care about the whole chain: the data, the backend, the interface, the tests an
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,kafka,docker,kubernetes,git,linux,pytorch,sklearn,opencv&perline=10" alt="MySQL, MongoDB, Apache Kafka, Docker, Kubernetes, Git, Linux, PyTorch, scikit-learn, OpenCV">
 </p>
 
-<p align="center"><b>Also:</b> Ollama · Mistral AI · n8n · LangGraph · MQTT · SonarQube · Power BI · Scrum</p>
+<p align="center"><b>Also:</b> Power BI · Power Query · DAX · pandas · Ollama · Mistral AI · n8n · LangGraph · MQTT · SonarQube · Scrum</p>
 
 ## 🤝 Let's work together
 
