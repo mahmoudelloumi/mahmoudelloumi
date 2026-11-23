@@ -32,7 +32,6 @@ I care about the whole chain: the data, the backend, the interface, the tests an
 - **Real needs first**: technology is worth it when it saves someone time
 - **Reliable results**: test, measure, compare, then keep what actually works
 - **Learning by building**: most of what I know, I learned by shipping a project
-- **Teamwork**: most of my projects were built in teams of 2 or 3
 
 ## 📌 Right now
 
